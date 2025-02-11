@@ -1,0 +1,21 @@
+{
+  "name": "adv-cohort-arr-str-obj",
+  "version": "1.0.0",
+  "description": "Welcome! This repository contains a set of TypeScript problems for you to practice and improve your problem-solving skills with Arrays, Strings, and Objects.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}

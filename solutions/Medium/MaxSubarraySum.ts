@@ -22,3 +22,5 @@ const maxSubarraySum = (nums) => {
 
   return maxSum;
 };
+
+module.exports = maxSubarraySum;
