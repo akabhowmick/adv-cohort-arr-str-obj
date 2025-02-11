@@ -10,14 +10,14 @@
  */
 
 function mostCommonCharacter(s: string): string {
-  const charCount = {};
+  const charCount: { [key: string]: number } = {};
 
   for (let char of s) {
-    charCount[char] = (charCount[char] || 0) + 1;
+    charCount[char] = (charCount[char] ?? 0) + 1;
   }
 
   let maxCount = 0;
-  let mostCommonChar = '';
+  let mostCommonChar = "";
 
   for (let char in charCount) {
     if (charCount[char] > maxCount) {

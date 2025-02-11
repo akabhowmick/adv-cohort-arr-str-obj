@@ -11,7 +11,7 @@
 
 // Kadane’s Algorithm
 
-const maxSubarraySum = (nums) => {
+const maxSubarraySum = (nums: number[]) => {
   let maxSum = nums[0];
   let currentSum = nums[0];
 
