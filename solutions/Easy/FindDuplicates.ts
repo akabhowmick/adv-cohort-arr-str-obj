@@ -11,12 +11,17 @@
 
 function findDuplicates(nums: number[]): number[] {
   const duplicates: number[] = [];
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[Math.abs(nums[i])] >= 0) {
-      nums[Math.abs(nums[i])] = -nums[Math.abs(nums[i])];
+  const seen = new Set<number>();
+
+  for (let num of nums) {
+    if (seen.has(num)) {
+      duplicates.push(num);
     } else {
-      duplicates.push(Math.abs(nums[i]));
+      seen.add(num);
     }
   }
+
   return duplicates;
 }
+
+module.exports = findDuplicates;

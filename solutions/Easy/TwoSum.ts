@@ -25,3 +25,6 @@ function twoSum(nums: number[], target: number): number[] {
 
   throw new Error("No solution found"); 
 }
+
+
+module.exports = twoSum;

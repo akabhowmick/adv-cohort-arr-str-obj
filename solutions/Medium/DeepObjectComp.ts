@@ -29,3 +29,5 @@ const deepObjectComparison = (obj1, obj2) => {
 
   return true;
 };
+
+module.exports = deepObjectComparison;

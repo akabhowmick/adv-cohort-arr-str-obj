@@ -28,3 +28,6 @@ function mostCommonCharacter(s: string): string {
 
   return mostCommonChar;
 }
+
+
+module.exports = mostCommonCharacter;

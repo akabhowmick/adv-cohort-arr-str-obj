@@ -29,3 +29,5 @@ function firstUniqueCharacter(s: string): number {
 
   return -1;
 }
+
+module.exports = firstUniqueCharacter;
