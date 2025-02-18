@@ -35,3 +35,5 @@ function expandAroundCenter(s: string, left: number, right: number): string {
   }
   return s.substring(left + 1, right);
 }
+
+// double check

@@ -10,8 +10,8 @@
  * Hint: Use recursion and check nested properties.
  */
 
-const deepObjectComparison = (obj1, obj2) => {
-  if (typeof obj1 !== 'object' || typeof obj2 !== 'object') {
+const deepObjectComparison = (obj1: any, obj2: any) => {
+  if (typeof obj1 !== "object" || typeof obj2 !== "object") {
     return false;
   }
 
